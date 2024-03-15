@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'petstagram.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'petstagramapp-database',
-        'USER': 'dcuvmmbicb',
-        'PASSWORD': '36OWHISIOA32OU22$',
-        'HOST': 'petstagramapp-server.postgres.database.azure.com',
+        'NAME': 'petstagram-1-database',
+        'USER': 'ncvgobwlxy',
+        'PASSWORD': '1BOSMQSB3J8402A0$',
+        'HOST': 'petstagram-1-server.postgres.database.azure.com',
         'PORT': '5432',
         'OPTIONS': {
             'sslmode': 'require',  # Or 'verify-ca' or 'verify-full' depending on your security requirements
